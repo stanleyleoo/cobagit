@@ -2,6 +2,7 @@ package cobagit;
 
 import java.awt.EventQueue;
 import javax.swing.JFrame;
+import javax.swing.*;
 
 public class Cobagit extends JFrame {
 
@@ -16,6 +17,7 @@ public class Cobagit extends JFrame {
         setSize(800, 600);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
+        JLabel lbl = new JLabel();
     }
 
     public static void main(String[] args) {
